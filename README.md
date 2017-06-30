@@ -1,1 +1,1 @@
-Let's Django\!
+Let's Django!
