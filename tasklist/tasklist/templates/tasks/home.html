@@ -1,0 +1,21 @@
+<h1>Home!</h1>
+
+<section class="incomplete">
+  <ul>
+    {% for task in incomplete_tasks %}
+      <li>
+        {{task.title}} {{task.category}} {{task.due_date}}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="complete">
+  <ul>
+    {% for task in complete_tasks %}
+    <li>
+      {{task.title}} {{task.category}} {{task.due_date}}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
